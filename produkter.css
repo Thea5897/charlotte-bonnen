@@ -1,3 +1,14 @@
+:root {
+  --background-color: #f8edeb;
+  --text-color: #000000;
+  --button-color: #aac0b3;
+  --bigtext-color: #cd7f70;
+  --forms-color: #fcf8f7;
+  --footer-color: #fcf8f7;
+  --hover-color: #aac0b3;
+  --line-color: #ebcdc7;
+}
+
 /*filtrerings menu*/
 #filtrer {
   margin: 10px;
@@ -15,7 +26,7 @@ button,
   font-family: "skia";
   font-weight: lighter;
   border: none;
-  background-color: #fbf7e7;
+  background-color: var(--background-color);
   font-size: 1.2rem;
   cursor: pointer;
 }

@@ -1,4 +1,14 @@
+:root {
+  --background-color: #f8edeb;
+  --text-color: #000000;
+  --button-color: #aac0b3;
+  --bigtext-color: #cd7f70;
+  --forms-color: #fcf8f7;
+  --footer-color: #fcf8f7;
+  --hover-color: #aac0b3;
+  --line-color: #ebcdc7;
+}
 hr {
-  border: 1px solid #ebcdc7;
+  border: 1px solid var(--line-color);
   width: 80vw;
 }
