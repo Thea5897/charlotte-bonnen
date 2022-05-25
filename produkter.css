@@ -1,0 +1,68 @@
+/*filtrerings menu*/
+#filtrer {
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: unset;
+  flex-flow: wrap;
+  padding: 10px;
+  gap: 7px;
+  margin-bottom: 8rem;
+}
+
+button,
+.tilbage_knap {
+  font-family: "skia";
+  font-weight: lighter;
+  border: none;
+  background-color: #fbf7e7;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(149, 144, 92);
+}
+
+.tilbage_knap_box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+article p {
+  font-family: "verdana";
+  font-size: 0.9rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.3rem;
+  padding: 1rem;
+}
+
+footer {
+  margin: auto;
+}
+
+.produkt h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+}
+
+.produkt-billede {
+  margin-bottom: 0rem;
+  margin-top: 3rem;
+}
+
+.billede {
+  height: auto;
+  width: 90%;
+  margin-inline: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
