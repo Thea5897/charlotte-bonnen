@@ -1,0 +1,61 @@
+body {
+  background-color: #f8edeb;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+h1 {
+  color: black;
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 46px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+p {
+  font-size: 23px;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: rgba(15, 15, 15, 0.849);
+}
+
+button {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  background-color: #aac0b3;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding-inline: 0.5rem;
+}
+
+@media only screen and (min-width: 700px) {
+  main {
+    margin-top: 8rem;
+  }
+}

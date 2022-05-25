@@ -16,8 +16,10 @@
   display: flex;
   place-self: right;
   justify-content: right;
-  color: #609511;
+  color: black;
   font-size: 2.3rem;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 .menu {
@@ -34,6 +36,12 @@
   background-color: white;
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  gap: 30px;
+}
+
+#logo_img_desk {
+  display: none;
 }
 
 .menu li {
@@ -51,14 +59,33 @@
 
 #logo_burger {
   display: inline;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+#logo_burger_bottom {
+  width: 186px;
+  margin-top: 6rem;
 }
 
 @media only screen and (min-width: 700px) {
   #menuknap {
     display: none;
   }
+
+  body > header:nth-child(1) {
+    background-color: #f8edeb;
+    position: sticky;
+  }
+
+  .menu > hr:nth-child(5) {
+    display: none;
+  }
+
+  #logo_burger_bottom {
+    display: none;
+  }
+
   .menu.hidden {
     transform: translateX(0);
     opacity: 1;
@@ -74,14 +101,15 @@
 
   .menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-flow: row;
-    background-color: white;
+    background-color: #f8edeb;
     /* margin-top: 30px; */
     font-family: Righteous;
     color: #609511;
     font-size: 2.3rem;
     height: 7vh;
+    margin-top: 3.5rem;
   }
 
   #logo_menu {
@@ -90,8 +118,39 @@
     width: 4rem;
   }
 
+  .menu_support {
+    justify-content: space-between;
+    justify-content: center;
+    background-color: #f8edeb;
+  }
+
+  #logo_img_desk {
+    display: flex;
+    width: 8rem;
+  }
+
   #logo_burger {
     display: none;
+  }
+
+  #logo_desk {
+    position: fixed;
+    background-color: #f8edeb;
+    width: 100vw;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    padding-top: 0;
+    top: 0;
+  }
+
+  .menu > li:nth-child(4) {
+    padding: 0;
+    gap: 0;
+    margin: 0;
   }
 
   #menu_support {

@@ -3,13 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="produkter.css" />
     <link rel="stylesheet" href="burger.css" />
-    <title>Behandlinger</title>
+    <link rel="stylesheet" href="unistyle.css" />
+    <title>Webshop</title>
   </head>
   <body>
-    <h1>Hejsa</h1>
+    <header>
+      <nav>
+        <div class="menu_support">
+          <a href="index.html"
+            ><img src="img/Logo.svg" alt="logo" id="logo_burger"
+          /></a>
+          <div id="logo_desk">
+            <a href="index.html"
+              ><img src="img/logo.svg" alt="logo" id="logo_img_desk"
+            /></a>
+          </div>
+          <div id="menuknap">☰</div>
+        </div>
+
+        <ul class="menu hidden">
+          <li><a href="produkter.html">Shop</a></li>
+          <li><a href="behandlinger.html">Behandling</a></li>
+          <li><a href="omos.html">Om os</a></li>
+          <li>
+            <a href="index.html"
+              ><img src="img/logo.svg" alt="logo" id="logo_burger_bottom"
+            /></a>
+          </li>
+          <hr />
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <h2>Produkter</h2>
 
     <nav id="filtrer">
       <button data-kategori="all" class="valgt">Alle</button>
@@ -38,7 +71,7 @@
         <h2 class="pris"></h2>
       </article>
     </template>
-
+  </main>
     <script src="burger.js"></script>
     <script src="script.js"></script>
   </body>
