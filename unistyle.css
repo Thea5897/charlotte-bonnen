@@ -38,6 +38,11 @@ main {
   margin-top: 3rem;
 }
 
+hr {
+  border: 1px solid var(--line-color);
+  width: 80vw;
+}
+
 h1 {
   color: var(--text-color);
   font-size: 65px;

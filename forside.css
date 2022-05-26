@@ -8,7 +8,3 @@
   --hover-color: #aac0b3;
   --line-color: #ebcdc7;
 }
-hr {
-  border: 1px solid var(--line-color);
-  width: 80vw;
-}
