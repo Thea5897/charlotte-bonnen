@@ -95,3 +95,36 @@ button {
     margin-top: 8rem;
   }
 }
+
+footer {
+  background-color: var(--footer-color);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  width: 30%;
+}
+
+.footer_1 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.footer_2 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.footer_3 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.footer_4 {
+  text-align: center;
+  padding-bottom: 30px;
+}
