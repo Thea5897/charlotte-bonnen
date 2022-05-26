@@ -1,3 +1,14 @@
+:root {
+  --background-color: #f8edeb;
+  --text-color: #000000;
+  --button-color: #aac0b3;
+  --bigtext-color: #cd7f70;
+  --forms-color: #fcf8f7;
+  --footer-color: #fcf8f7;
+  --hover-color: #aac0b3;
+  --line-color: #ebcdc7;
+}
+
 /* BURGERMENU */
 .hidden {
   display: none !important;
@@ -155,6 +166,15 @@
 
   #menu_support {
     margin: 0rem;
+  }
+
+  body > header:nth-child(1) {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: var(--background-color);
+    margin-bottom: 0;
+    height: 90px;
   }
   /*BURGERMENU SLUT*/
 }

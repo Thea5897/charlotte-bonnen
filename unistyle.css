@@ -35,13 +35,18 @@ body {
 }
 
 main {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 hr {
   border: 1px solid var(--line-color);
   width: 80vw;
   place-self: center;
+}
+.hr_holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -71,7 +76,7 @@ h4 {
 }
 
 p {
-  font-size: 23px;
+  font-size: 20px;
   font-family: "Playfair Display", serif;
 }
 
@@ -98,6 +103,6 @@ button:hover {
 
 @media only screen and (min-width: 700px) {
   main {
-    margin-top: 9rem;
+    margin-top: 10rem;
   }
 }
