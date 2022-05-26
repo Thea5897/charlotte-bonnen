@@ -1,3 +1,24 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+}
+
+/* font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif; */
+
 :root {
   --background-color: #f8edeb;
   --text-color: #000000;

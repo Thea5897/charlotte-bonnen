@@ -1,3 +1,24 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+}
+
+/* font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif; */
+
 :root {
   --background-color: #f8edeb;
   --text-color: #000000;
@@ -7,4 +28,29 @@
   --footer-color: #fcf8f7;
   --hover-color: #aac0b3;
   --line-color: #ebcdc7;
+}
+
+hr {
+  border: 1px solid var(--line-color);
+  width: 80vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+p {
+  margin-bottom: 10px;
+}
+
+.section_1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section_2 {
+  text-align: center;
+}
+.section_3 {
+  text-align: left;
+}
+footer {
+  background-color: var(--footer-color);
 }
