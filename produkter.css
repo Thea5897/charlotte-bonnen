@@ -146,14 +146,14 @@ footer {
   margin-bottom: 2rem;
 }
 
-body > header:nth-child(1) {
+/* body > header:nth-child(1) {
   position: fixed;
   top: 0;
   width: 100vw;
   background-color: var(--background-color);
   margin-bottom: 0;
   height: 90px;
-}
+} */
 
 @media only screen and (min-width: 650px) {
   #liste {
