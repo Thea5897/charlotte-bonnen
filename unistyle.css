@@ -211,3 +211,9 @@ footer {
 /*FOOTER*/
 @media (min-width: 1000px) {
 }
+
+@media (min-width: 1000px) {
+  .center {
+    width: 15%;
+  }
+}
