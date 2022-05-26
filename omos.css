@@ -93,6 +93,12 @@ p {
   }
 }
 
+@media (min-width: 1000px) {
+  .section_3 {
+    padding-left: 120px;
+  }
+}
+
 .section_4 {
   padding-left: 15px;
   padding-right: 15px;
@@ -106,6 +112,14 @@ p {
     padding-right: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section_4 {
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 40px;
   }
 }
 
@@ -125,6 +139,13 @@ p {
   .section_6 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section_6 {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
