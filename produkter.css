@@ -39,12 +39,18 @@ table {
   flex-flow: wrap;
   padding: 10px;
   gap: 7px;
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
+}
+
+.produkt {
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button,
 .tilbage_knap {
-  font-family: "skia";
   font-weight: lighter;
   border: none;
   background-color: var(--background-color);
@@ -53,7 +59,11 @@ button,
 }
 
 button:hover {
-  color: rgb(149, 144, 92);
+  color: var(--background-color);
+}
+
+p {
+  text-align: center;
 }
 
 .tilbage_knap_box {
@@ -63,7 +73,6 @@ button:hover {
 }
 
 article p {
-  font-family: "verdana";
   font-size: 0.9rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -77,16 +86,21 @@ footer {
 }
 
 .produkt h2 {
-  font-family: "Courier New", Courier, monospace;
   text-align: center;
   margin-top: 0rem;
   margin-bottom: 0rem;
   font-size: 1rem;
 }
 
+.produkt button {
+  width: 250px;
+  align-self: center;
+}
+
 .produkt-billede {
   margin-bottom: 0rem;
   margin-top: 3rem;
+  width: 80vw;
 }
 
 .billede {
@@ -97,4 +111,65 @@ footer {
   padding-right: 5rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
+}
+
+#liste {
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --background-color: #f8edeb;
+  --text-color: #000000;
+  --button-color: #aac0b3;
+  --bigtext-color: #cd7f70;
+  --forms-color: #fcf8f7;
+  --footer-color: #fcf8f7;
+  --hover-color: #aac0b3;
+  --line-color: #ebcdc7;
+}
+
+.tilbage_knap_box {
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 650px) {
+  #liste {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-inline: 3rem;
+  }
+
+  .produkt-billede {
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #liste {
+    margin-inline: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #liste {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 8rem;
+  }
+
+  .produkt-billede {
+    width: 25vw;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  #liste {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-inline: 10rem;
+  }
+
+  .produkt-billede {
+    width: 18vw;
+  }
 }

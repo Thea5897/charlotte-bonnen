@@ -80,6 +80,7 @@ a {
   font-size: 32px;
   text-decoration: none;
   color: rgba(15, 15, 15, 0.849);
+  cursor: pointer;
 }
 
 button {
@@ -89,10 +90,15 @@ button {
   border: 1px solid var(--text-color);
   border-radius: 12px;
   padding-inline: 0.5rem;
+  text-align: center;
+}
+
+button:hover {
+  color: var(--background-color);
 }
 
 @media only screen and (min-width: 700px) {
   main {
-    margin-top: 8rem;
+    margin-top: 9rem;
   }
 }
