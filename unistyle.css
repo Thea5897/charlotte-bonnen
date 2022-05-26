@@ -106,3 +106,58 @@ button:hover {
     margin-top: 10rem;
   }
 }
+
+footer {
+  background-color: var(--footer-color);
+}
+
+.footer_first {
+  display: grid;
+}
+
+.footer_1 {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+
+.footer_2 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 600px) {
+  .footer_2 {
+    padding-top: 30px;
+  }
+}
+
+.footer_second {
+  display: grid;
+}
+
+.footer_3 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.footer_4 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 600px) {
+  .footer_first,
+  .footer_second {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  width: 30%;
+}
