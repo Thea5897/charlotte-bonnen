@@ -34,12 +34,14 @@ hr {
   width: 80vw;
   margin-top: 100px;
   margin-bottom: 100px;
-  display: flex;
-  place-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .section_1 {
@@ -48,10 +50,75 @@ p {
 }
 .section_2 {
   text-align: center;
+  padding-bottom: 30px;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
 }
 .section_3 {
   text-align: left;
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
+
+.section_4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 70px;
+}
+
+.section_5 {
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.section_6 {
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.section_7 {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   background-color: var(--footer-color);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  width: 30%;
+}
+
+.section_8 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.section_9 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.section_10 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.section_11 {
+  text-align: center;
+  padding-bottom: 30px;
 }
