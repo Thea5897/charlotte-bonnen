@@ -153,6 +153,12 @@ body > header:nth-child(1) {
     display: none;
   }
 
+  #filter_container {
+    display: flex;
+    justify-content: center;
+    margin-block: 1rem;
+  }
+
   #logo_desk {
     position: fixed;
     background-color: #f8edeb;

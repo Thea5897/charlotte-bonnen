@@ -33,13 +33,19 @@ table {
 /*filtrerings menu*/
 #filtrer {
   margin: 10px;
-  justify-content: center;
-  display: flex;
-  flex-direction: unset;
-  flex-flow: wrap;
+  display: grid;
+  border-width: 200px;
+  border: 1px solid #ebcdc7;
+  grid-template-columns: 1fr 1fr;
   padding: 10px;
   gap: 7px;
   margin-bottom: 1rem;
+  background-color: var(--forms-color);
+}
+
+.filtrerings_knap,
+#all {
+  background-color: var(--forms-color);
 }
 
 .produkt {
@@ -47,6 +53,7 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 5px;
 }
 
 button,
@@ -102,6 +109,11 @@ footer {
   width: 80vw;
 }
 
+.valgt {
+  color: var(--button-color);
+  background-color: var(--forms-color);
+}
+
 .billede {
   height: auto;
   width: 90%;
@@ -155,11 +167,26 @@ footer {
   height: 90px;
 } */
 
+@media only screen and (min-width: 500px) {
+  #filtrer {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 4rem;
+  }
+}
+
 @media only screen and (min-width: 650px) {
   #liste {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-inline: 3rem;
+  }
+
+  #filtrer {
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
   }
 
   .produkt-billede {
