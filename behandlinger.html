@@ -46,101 +46,75 @@
 
     <main>
       <h2>Behandlinger</h2>
-      <div>
-        <img src="img/behandlinger.webp" alt="velvaere billede" />
-      </div>
-      <div class="testbox">
-        <form action="/">
-          <div class="banner">
-            <h4>Yoga Application Form</h4>
-          </div>
-          <div class="item">
-            <p>Select Course Date</p>
-            <input type="date" name="bdate" required />
-            <i class="fas fa-calendar-alt"></i>
-          </div>
-          <div class="item">
-            <p>Name</p>
-            <div class="name-item">
-              <input type="text" name="name" placeholder="First" />
-              <input type="text" name="name" placeholder="Last" />
+      <div id="first_section">
+        <div class="hero_img">
+          <img src="img/behandlinger.webp" alt="velvaere billede" />
+        </div>
+        <div class="testbox">
+          <form action="/">
+            <div class="banner">
+              <h4>Bestil tid til behandling</h4>
             </div>
-          </div>
-          <div class="item">
-            <p>Email</p>
-            <input type="email" name="email" />
-          </div>
-          <div class="item">
-            <p>Phone</p>
-            <input type="text" name="phone" placeholder="### ### ####" />
-          </div>
-          <div class="question">
-            <p>Gender</p>
-            <div class="question-answer">
-              <div>
-                <input type="radio" value="none" id="radio_1" name="gender" />
-                <label for="radio_1" class="radio"><span>Male</span></label>
-              </div>
-              <div>
-                <input type="radio" value="none" id="radio_2" name="gender" />
-                <label for="radio_2" class="radio"><span>Female</span></label>
+            <div class="item">
+              <p>Vælg dato</p>
+              <input type="date" name="bdate" required />
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="item">
+              <p>Navn</p>
+              <div class="name-item">
+                <input type="text" name="name" placeholder="Fornavn" />
+                <input type="text" name="name" placeholder="Efternavn" />
               </div>
             </div>
-          </div>
-          <div class="item">
-            <p>Language</p>
-            <input type="text" name="language" />
-          </div>
-          <div class="item">
-            <p>Address</p>
-            <input
-              type="text"
-              name="name"
-              placeholder="Street address"
-              required
-            />
-            <input
-              type="text"
-              name="name"
-              placeholder="Street address line 2"
-              required
-            />
-            <div class="city-item">
-              <input type="text" name="name" placeholder="City" required />
-              <input type="text" name="name" placeholder="Region" required />
-              <input
-                type="text"
-                name="name"
-                placeholder="Postal / Zip code"
-                required
-              />
-              <select required>
-                <option value="">Country</option>
-                <option value="1">Russia</option>
-                <option value="2">Germany</option>
-                <option value="3">France</option>
-                <option value="4">Armenia</option>
-                <option value="5">USA</option>
-              </select>
+            <div class="item">
+              <p>Email</p>
+              <input type="email" name="email" />
             </div>
-          </div>
-          <div class="item">
-            <p>Experience in Yoga</p>
-            <textarea rows="3"></textarea>
-          </div>
-          <div class="item">
-            <p>Illness (if any)</p>
-            <input type="text" name="illness" />
-          </div>
-          <div class="item">
-            <p>Additional Message</p>
-            <textarea rows="3"></textarea>
-          </div>
-          <div class="btn-block">
-            <button type="submit" href="/">Send Application</button>
-          </div>
-        </form>
+            <div class="item">
+              <p>Telefon</p>
+              <input type="text" name="phone" placeholder="22 22 22 22" />
+            </div>
+
+            <select required>
+              <option value="">Behandling</option>
+              <option value="1">Ansigtsbehandling</option>
+              <option value="2">Neglebehandling</option>
+              <option value="3">Voksbehandling</option>
+              <option value="4">Collagen lysbehandling</option>
+              <option value="5">Spraytan</option>
+              <option value="5">Vipper og Bryn</option>
+              <option value="5">Frisør Lila</option>
+              <option value="5">Sugaring</option>
+              <option value="5">Kropsmassage</option>
+            </select>
+
+            <div class="item">
+              <p>Kommentar</p>
+              <textarea rows="3"></textarea>
+            </div>
+            <div class="btn-block">
+              <button type="submit" href="/">Bestil</button>
+            </div>
+          </form>
+        </div>
       </div>
+      <div class="hr_holder">
+        <hr />
+      </div>
+      <section id="second_section">
+        <section id="question_section">
+          <div class="question_section_container">
+            <h3>Har du nogle spørgsmål?</h3>
+            <p>
+              Skriv til os på vores e-mail Charlottebonnen@gmail.com så vender
+              vi tilbage i løbet af få dage. Eller gå ned i vores store butik på
+              Jægersborg Allé 23, 2920 Charlottenlund
+            </p>
+            <button>Skriv til os!</button>
+          </div>
+        </section>
+      </section>
     </main>
     <footer>
       <section class="footer">
