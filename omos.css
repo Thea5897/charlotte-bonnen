@@ -40,6 +40,10 @@ hr {
   width: 50%;
 }
 
+main {
+  margin: 1rem;
+}
+
 @media (min-width: 600px) {
   h1 {
     padding-top: 30px;
