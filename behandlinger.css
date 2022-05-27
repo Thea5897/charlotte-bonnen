@@ -201,5 +201,158 @@ input[type="radio"]:checked + label:after {
   margin: 1rem;
 }
 
+.hero_img img {
+  object-fit: cover;
+  border: 1px transparent;
+  border-radius: 12px;
+}
+
+#second_section h3 {
+  text-align: center;
+}
+
+#second_section {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+#third_section h4 {
+  text-align: center;
+}
+
+.behandling_container {
+  width: 369px;
+  height: 337px;
+  background-repeat: no-repeat;
+}
+
+#ansigts {
+  background-image: url("img/ansigts.webp");
+}
+
+#negle {
+  background-image: url("img/negle.webp");
+}
+
+#voks {
+  background-image: url("img/voks.webp");
+}
+#collagen {
+  background-image: url("img/collagen.webp");
+}
+#spraytan {
+  background-image: url("img/spraytan.webp");
+}
+#vipper {
+  background-image: url("img/vipperbryn.webp");
+}
+#lila {
+  background-image: url("img/frisor.webp");
+}
+#sugaring {
+  background-image: url("img/sugaring.webp");
+}
+#kropsmassage {
+  background-image: url("img/massage.webp");
+}
+
+.behandling_sprite {
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 23px;
+  font-family: "Montserrat";
+  color: white;
+  text-shadow: 1px 1px 9px black;
+  cursor: pointer;
+}
+
+.oversigt {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  place-content: center;
+  place-items: center;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
 @media only screen and (min-width: 500px) {
+  #first_section {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 1rem;
+  }
+
+  .testbox {
+    padding: 0;
+  }
+
+  .hero_img {
+    margin: 0;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .oversigt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    margin-inline: 3rem;
+  }
+
+  main {
+    margin-inline: 2rem;
+  }
+
+  .behandling_container {
+    width: 358px;
+  }
+
+  #third_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .oversigt {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 3rem;
+    width: fit-content;
+  }
+
+  .behandling_container {
+    width: 25vw;
+    height: 25vw;
+    background-position-y: center;
+    background-position-x: center;
+  }
+
+  main {
+    margin-inline: 9rem;
+  }
+
+  #third_section {
+    place-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .oversigt {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-inline: 3rem;
+    width: fit-content;
+  }
+
+  main {
+    margin-inline: 14rem;
+  }
+
+  .behandling_container {
+    width: 18vw;
+    height: 18vw;
+  }
 }
