@@ -95,7 +95,7 @@ p {
 
 @media (min-width: 1000px) {
   .section_3 {
-    padding-left: 120px;
+    padding-left: 200px;
   }
 }
 
@@ -117,8 +117,8 @@ p {
 
 @media (min-width: 1000px) {
   .section_4 {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
     gap: 40px;
   }
 }
@@ -144,8 +144,8 @@ p {
 
 @media (min-width: 1000px) {
   .section_6 {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 
