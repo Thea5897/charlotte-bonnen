@@ -36,7 +36,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: inherit;
+  height: min-content;
   padding: 20px;
 }
 form {
@@ -274,6 +274,7 @@ input[type="radio"]:checked + label:after {
   place-items: center;
   gap: 1rem;
   margin-block: 1rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 500px) {
@@ -299,6 +300,7 @@ input[type="radio"]:checked + label:after {
     grid-template-columns: 1fr 1fr;
     margin: 1rem;
     margin-inline: 3rem;
+    margin-bottom: 2rem;
   }
 
   main {
@@ -345,6 +347,7 @@ input[type="radio"]:checked + label:after {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-inline: 3rem;
     width: fit-content;
+    margin-bottom: 2rem;
   }
 
   main {
