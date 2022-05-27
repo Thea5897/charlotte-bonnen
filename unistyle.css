@@ -35,7 +35,7 @@ body {
 }
 
 main {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 hr {
@@ -51,33 +51,34 @@ hr {
 
 h1 {
   color: var(--text-color);
-  font-size: 65px;
+  font-size: 60px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 h2 {
   color: var(--text-color);
-  font-size: 46px;
+  font-size: 38px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 30px;
   color: var(--text-color);
   font-family: "Montserrat", sans-serif;
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 23px;
   font-family: "Playfair Display", serif;
   text-align: center;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Playfair Display", serif;
+  line-height: 1.7;
 }
 
 a {
@@ -95,6 +96,7 @@ button {
   border-radius: 12px;
   padding-inline: 0.5rem;
   text-align: center;
+  cursor: pointer;
 }
 
 button:hover {
@@ -204,12 +206,21 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   width: 30%;
 }
 
 /*FOOTER*/
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
+  .footer {
+    margin-inline: 4rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .footer {
+    margin-inline: 12rem;
+  }
 }
 
 @media (min-width: 1000px) {
