@@ -101,12 +101,27 @@ button:hover {
   color: var(--background-color);
 }
 
+.question_section_container {
+  align-items: center;
+}
+
 @media only screen and (min-width: 700px) {
   main {
-    margin-top: 10rem;
+    margin-top: 6.5rem;
+  }
+
+  .question_section_container {
+    margin-inline: 8rem;
   }
 }
 
+@media only screen and (min-width: 1300px) {
+  .question_section_container {
+    margin-inline: 12rem;
+  }
+}
+
+/*FOOTER*/
 footer {
   background-color: var(--footer-color);
 }
@@ -193,11 +208,8 @@ footer {
   width: 30%;
 }
 
+/*FOOTER*/
 @media (min-width: 1000px) {
-  img {
-    width: 180px;
-    height: 180px;
-  }
 }
 
 @media (min-width: 1000px) {
