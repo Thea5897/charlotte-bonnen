@@ -86,6 +86,7 @@ body > header:nth-child(1) {
   background-color: var(--background-color);
   margin-bottom: 0;
   height: 90px;
+  z-index: 3;
 }
 
 @media only screen and (min-width: 700px) {
