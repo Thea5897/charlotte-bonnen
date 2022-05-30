@@ -44,7 +44,7 @@ function visProdukt() {
   console.log(produkter);
 
   produkter.forEach((produkt) => {
-    console.log(produkt._id);
+    // console.log(produkt._id);
     // loop igennem json (produkter)
     if (filter == produkt.type || filter == "all") {
       // console.log(produkt);

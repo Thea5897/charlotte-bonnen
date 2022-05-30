@@ -5,18 +5,83 @@
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
     "navn": "Sisley Comfort Extreme nutrive",
+    "storrelse": "30 ml",
     "billedenavn": "sisley"
   },
   {
-    "_id": "613b25f77b91b61a00031f1f",
+    "_id": "0002",
     "pris": "595 DKK",
     "type": "Ansigt",
     "langbeskrivelse": "Rosalique 3 in 1 Anti Redness miracle formula",
     "navn": "Rosalique Gaveæske",
+    "storrelse": "50 ml",
     "billedenavn": "rosalique"
   },
   {
-    "_id": "613b26787b91b61a00031f2f",
+    "_id": "0003",
+    "type": "Hår",
+    "pris": "225 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sensai Shidenkai Volumising conditioner, 250ml",
+    "storrelse": "250 ml",
+    "billedenavn": "sensai"
+  },
+  {
+    "_id": "0004",
+    "type": "Makeup",
+    "pris": "265 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Clinique Blushing Blush Powder",
+    "storrelse": "0.3 oz",
+    "billedenavn": "sisley"
+  },
+  {
+    "_id": "0005",
+    "type": "Ansigt",
+    "pris": "560 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sisley Comfort Extreme nutrive",
+    "storrelse": "250 ml",
+    "billedenavn": "sisley"
+  },
+  {
+    "_id": "0006",
+    "type": "Ansigt",
+    "pris": "560 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sisley Comfort Extreme nutrive",
+    "storrelse": "250 ml",
+    "billedenavn": "sisley"
+  },
+  {
+    "_id": "0007",
+    "type": "Ansigt",
+    "pris": "560 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sisley Comfort Extreme nutrive",
+    "storrelse": "250 ml",
+    "billedenavn": "sisley"
+  },
+  {
+    "_id": "0008",
+    "type": "Ansigt",
+    "pris": "560 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sisley Comfort Extreme nutrive",
+    "storrelse": "250 ml",
+    "billedenavn": "sisley"
+  },
+  {
+    "_id": "0009",
+    "type": "Ansigt",
+    "pris": "560 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sisley Comfort Extreme nutrive",
+    "storrelse": "250 ml",
+    "billedenavn": "sisley"
+  },
+  {
+    "_id": "0010",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -24,7 +89,7 @@
     "billedenavn": "sisley"
   },
   {
-    "_id": "613b26c77b91b61a00031f3b",
+    "_id": "0011",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -32,7 +97,7 @@
     "billedenavn": "sisley"
   },
   {
-    "_id": "613b272d7b91b61a00031f44",
+    "_id": "0012",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -40,7 +105,7 @@
     "billedenavn": "sisley"
   },
   {
-    "_id": "613b26fc7b91b61a00031f3f",
+    "_id": "0013",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -48,7 +113,7 @@
     "billedenavn": "sisley"
   },
   {
-    "_id": "613b29c37b91b61a00031f85",
+    "_id": "0014",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -56,63 +121,7 @@
     "billedenavn": "sisley"
   },
   {
-    "_id": "613b2b8c7b91b61a00031fb7",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b2bd87b91b61a00031fbf",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b2aec7b91b61a00031fa7",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b2a927b91b61a00031f9f",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b2b247b91b61a00031fac",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b2b5f7b91b61a00031fb1",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b29f77b91b61a00031f8f",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "613b2a577b91b61a00031f9a",
+    "_id": "0015",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
