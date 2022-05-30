@@ -33,60 +33,60 @@
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
     "navn": "Clinique Blushing Blush Powder",
     "storrelse": "0.3 oz",
-    "billedenavn": "sisley"
+    "billedenavn": "clinique01"
   },
   {
     "_id": "0005",
     "type": "Ansigt",
-    "pris": "560 DKK",
+    "pris": "725 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "storrelse": "250 ml",
-    "billedenavn": "sisley"
+    "navn": "Bioeffect Hydrating Cream, 50ml",
+    "storrelse": "50 ml",
+    "billedenavn": "bioeffect"
   },
   {
     "_id": "0006",
     "type": "Ansigt",
-    "pris": "560 DKK",
+    "pris": "239 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "storrelse": "250 ml",
-    "billedenavn": "sisley"
+    "navn": "Karmameju Sun Face Cream SPF 15",
+    "storrelse": "40 ml",
+    "billedenavn": "karmameju"
   },
   {
     "_id": "0007",
-    "type": "Ansigt",
-    "pris": "560 DKK",
+    "type": "Makeup",
+    "pris": "405 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "storrelse": "250 ml",
-    "billedenavn": "sisley"
+    "navn": "Sisley Powder Brush",
+    "storrelse": "Medium size",
+    "billedenavn": "sisleybrush"
   },
   {
     "_id": "0008",
-    "type": "Ansigt",
-    "pris": "560 DKK",
+    "type": "Parfume",
+    "pris": "595 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "storrelse": "250 ml",
-    "billedenavn": "sisley"
+    "navn": "Clean Flower Fresh, Daisy Love",
+    "storrelse": "60 ml",
+    "billedenavn": "marcjacobs"
   },
   {
     "_id": "0009",
     "type": "Ansigt",
-    "pris": "560 DKK",
+    "pris": "1300 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "storrelse": "250 ml",
-    "billedenavn": "sisley"
+    "navn": "La Prairie Anti-Aging Eye And Lip Perfection, 15 ml",
+    "storrelse": "15 ml",
+    "billedenavn": "laprairie"
   },
   {
     "_id": "0010",
-    "type": "Ansigt",
-    "pris": "560 DKK",
+    "type": "Makeup",
+    "pris": "150 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
+    "navn": "Clarins Instant Comfort Lip Oil",
+    "billedenavn": "clarinslipoil"
   },
   {
     "_id": "0011",
