@@ -90,13 +90,16 @@ a {
 }
 
 button {
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Playfair Display", serif;
   background-color: var(--button-color);
   border-radius: 12px;
   padding-inline: 0.5rem;
   text-align: center;
   cursor: pointer;
+
+  padding-inline: 20px;
+  padding-block: 10px;
 }
 
 button:hover {

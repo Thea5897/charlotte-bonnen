@@ -30,6 +30,11 @@ table {
   --line-color: #ebcdc7;
 }
 
+h2,
+h3 {
+  font-weight: lighter;
+}
+
 /*filtrerings menu*/
 #filtrer {
   margin: 10px;
@@ -97,6 +102,7 @@ footer {
   margin-top: 0rem;
   margin-bottom: 0rem;
   font-size: 1rem;
+  font-family: normal;
 }
 
 .produkt button {

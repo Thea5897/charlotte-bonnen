@@ -32,6 +32,21 @@ table {
 
 /* FORM UDFYLDNINGS CSS */
 
+h2,
+h3 {
+  font-weight: lighter;
+}
+h2 {
+  padding-bottom: 80px;
+}
+hr {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+h3 {
+  padding-bottom: 20px;
+}
+
 .testbox {
   display: flex;
   justify-content: center;
@@ -218,6 +233,7 @@ input[type="radio"]:checked + label:after {
 
 #third_section h4 {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .behandling_container {
@@ -261,8 +277,8 @@ input[type="radio"]:checked + label:after {
   margin-top: 8rem;
   font-size: 23px;
   font-family: "Montserrat";
-  color: white;
-  text-shadow: 1px 1px 9px black;
+  color: var(--text-color);
+
   cursor: pointer;
 }
 
