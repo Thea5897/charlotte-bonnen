@@ -107,7 +107,7 @@ body > header:nth-child(1) {
   }
 
   .menu.hidden {
-    transform: translateX(0);
+    /* transform: translateX(0); */
     opacity: 1;
   }
 
