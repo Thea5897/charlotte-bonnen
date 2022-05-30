@@ -29,6 +29,10 @@ table {
   --hover-color: #aac0b3;
   --line-color: #ebcdc7;
 }
+
+h2 {
+  font-weight: lighter;
+}
 hr {
   border: 1px solid var(--line-color);
   width: 80vw;
@@ -60,6 +64,7 @@ p {
 .section_1 {
   text-align: center;
   margin-bottom: 30px;
+  font-weight: lighter;
 }
 .section_2 {
   text-align: center;
@@ -89,6 +94,7 @@ p {
   text-align: left;
   padding-left: 15px;
   padding-bottom: 20px;
+  font-weight: lighter;
 }
 
 @media (min-width: 600px) {
@@ -130,6 +136,7 @@ p {
 .section_5 {
   padding-bottom: 20px;
   text-align: center;
+  font-weight: lighter;
 }
 
 .section_6 {
