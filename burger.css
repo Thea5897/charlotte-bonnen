@@ -40,8 +40,7 @@
   justify-content: right;
   transition: 0.2s;
   transform-origin: top left;
-  font-family: Righteous;
-  color: #609511;
+  font-family: "Montserrat";
   font-size: 2.3rem;
   position: fixed;
   background-color: #f8edeb;
@@ -126,11 +125,11 @@ body > header:nth-child(1) {
     flex-flow: row;
     background-color: #f8edeb;
     /* margin-top: 30px; */
-    font-family: Righteous;
-    color: #609511;
+    font-family: "Montserrat";
     font-size: 2.3rem;
     height: 7vh;
     margin-top: 5rem;
+    padding-bottom: 66px;
   }
 
   #logo_menu {
