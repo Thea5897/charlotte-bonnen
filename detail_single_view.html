@@ -50,11 +50,12 @@
       <section>
         <article class="produkt">
           <h2 class="navn"></h2>
+          <h4 class="storrelse"></h4>
           <h2 class="pris"></h2>
           <div id="produkt_container">
             <img src="" alt="" class="billede" />
 
-            <p class="langb"></p>
+            <p class="langbeskrivelse"></p>
           </div>
           <hr />
           <div class="tilbage_knap_box">
@@ -158,10 +159,10 @@
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const produktid = urlParams.get("id");
-      let singleprodukt;
-      const url = "produkter.json";
+      let produkt;
+      const url = "produkter.json?id=" + produktid;
       // const knap = document.querySelector("button");
-      console.log("det virker ID: " + produktid);
+      //console.log("det virker ID: " + produktid);
 
       const header = document.querySelector("header h2");
       // const options = {
@@ -174,26 +175,28 @@
 
       async function LoadJSON() {
         console.log("det virker ID: " + produktid);
-        const respons = await fetch(url + produktid);
-        console.log("det virker maaske ID: " + produktid + respons);
-        singleprodukt = await respons.json();
-        console.log("Single " + singleprodukt);
+        const respons = await fetch(url);
+
+        console.log(url + produktid);
+        //console.log("det virker maaske ID: " + produktid + respons);
+        const produkt = await respons.json();
+        console.log("Single " + produkt);
         // console.log("loaded", url + id);
         // knap.addEventListener("click", () => {
         //   location.href = "index.html";
         // });
 
-        visProdukt();
+        visProdukt(produkt);
       }
 
-      function visProdukt() {
+      function visProdukt(produkt) {
         console.log("prduktet bliber hentet ID: " + produktid);
-        document.querySelector(".navn").textContent = singleprodukt.navn;
-        document.querySelector(".pris").textContent = singleprodukt.pris;
-        document.querySelector(".langb").textContent =
-          singleprodukt.langbeskrivelse;
+        document.querySelector(".navn").textContent = produkt.navn;
+        document.querySelector(".pris").textContent = produkt.pris;
+        document.querySelector(".langbeskrivelse").textContent =
+          produkt.langbeskrivelse;
         document.querySelector(".billede").src =
-          "produkter/" + singleprodukt.billedenavn;
+          "produkter/" + produkt.billedenavn;
       }
     </script>
     <script src="burger.js"></script>
