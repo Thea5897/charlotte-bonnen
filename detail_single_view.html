@@ -58,7 +58,7 @@
           </div>
           <hr />
           <div class="tilbage_knap_box">
-            <button class="tilbage_knap">BACK</button>
+            <button class="tilbage_knap" onclick="history.back()">BACK</button>
           </div>
         </article>
       </section>
@@ -173,7 +173,9 @@
       document.addEventListener("DOMContentLoaded", hentData);
 
       async function hentData() {
+        console.log("det virker ID: " + id);
         const JSONData = await fetch(url + id);
+        console.log("det virker maaske ID: " + id);
         singleprodukt = await JSONData.json();
 
         console.log("loaded", url + id);
@@ -185,12 +187,13 @@
       }
 
       function visProdukt() {
-        document.querySelector(".navn").textContent = produkter.navn;
-        document.querySelector(".pris").textContent = produkter.pris;
+        console.log("prduktet bliber hentet ID: " + id);
+        document.querySelector(".navn").textContent = singleprodukt.navn;
+        document.querySelector(".pris").textContent = singleprodukt.pris;
         document.querySelector(".langb").textContent =
-          produkter.langbeskrivelse;
+          singleprodukt.langbeskrivelse;
         document.querySelector(".billede").src =
-          "produkter/" + produkter.billedenavn;
+          "produkter/" + singleprodukt.billedenavn;
       }
     </script>
     <script src="burger.js"></script>
