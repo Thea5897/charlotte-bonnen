@@ -29,7 +29,7 @@ function filterKategori() {
 
 async function loadJSON() {
   const JSONData = await fetch("produkter.json", {
-    headers: myHeaders,
+    // headers: myHeaders,
   });
   produkter = await JSONData.json();
   // console.log("frugter", frugter);
@@ -56,7 +56,7 @@ function visProdukt() {
 
       //Kalder anonym funktion indeni click, der fører siden over til single view
       klon.querySelector("article").addEventListener("click", () => {
-        location.href = "detail_single_view.html?id=" + produkt.id;
+        location.href = "detail_single_view.html?id=" + produkt._id;
       });
 
       //Hover effekt på produkterne sker ved mouseover/mouseout

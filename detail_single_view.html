@@ -62,7 +62,7 @@
           </div>
         </article>
       </section>
-      <section class="section_one">
+      <!-- <section class="section_one">
         <section class="section_1">
           <img src="produkter/rosalique.webp" alt="Rosalique gaveæske" />
         </section>
@@ -123,7 +123,7 @@
           </p>
           <button>Skriv til os!</button>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer>
       <section class="footer">
@@ -158,32 +158,33 @@
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const id = urlParams.get("id");
-      let produkter;
+      let singleprodukt;
       const url = "produkter.json";
       const knap = document.querySelector("button");
       console.log("det virker ID: " + id);
 
       const header = document.querySelector("header h2");
-      const options = {
-        headers: {
-          "x-apikey": "613b480043cedb6d1f97ef66",
-        },
-      };
+      // const options = {
+      // headers: {
+      //   "x-apikey": "613b480043cedb6d1f97ef66",
+      // },
+      // };
 
       document.addEventListener("DOMContentLoaded", hentData);
 
       async function hentData() {
-        const JSONData = await fetch(url + id, options);
-        produkter = await JSONData.json();
+        const JSONData = await fetch(url + id);
+        singleprodukt = await JSONData.json();
+
         console.log("loaded", url + id);
         knap.addEventListener("click", () => {
           location.href = "index.html";
         });
 
-        visProdukter();
+        visProdukt();
       }
 
-      function visProdukter() {
+      function visProdukt() {
         document.querySelector(".navn").textContent = produkter.navn;
         document.querySelector(".pris").textContent = produkter.pris;
         document.querySelector(".langb").textContent =
