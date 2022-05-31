@@ -48,6 +48,10 @@
     </header>
 
     <main>
+      <div class="tilbage_knap_box">
+        <button class="tilbage_knap" onclick="history.back()">BACK</button>
+      </div>
+      <hr />
       <section>
         <article class="produkt">
           <h2 class="navn"></h2>
@@ -59,9 +63,6 @@
             <p class="langbeskrivelse"></p>
           </div>
           <hr />
-          <div class="tilbage_knap_box">
-            <button class="tilbage_knap" onclick="history.back()">BACK</button>
-          </div>
         </article>
       </section>
       <!-- <section class="section_one">
@@ -175,23 +176,28 @@
       document.addEventListener("DOMContentLoaded", LoadJSON);
 
       async function LoadJSON() {
-        console.log("det virker ID: " + produktid);
+        // console.log("det virker ID: " + produktid);
         const respons = await fetch(url);
 
-        console.log(url + produktid);
+        // console.log(url + produktid);
         //console.log("det virker maaske ID: " + produktid + respons);
-        const produkt = await respons.json();
-        console.log("Single " + produkt);
+        produkt = await respons.json();
+        // console.log("Single " + produkt);
         // console.log("loaded", url + id);
         // knap.addEventListener("click", () => {
         //   location.href = "index.html";
         // });
 
-        visProdukt(produkt);
+        console.log(url);
+        // console.log(produktid.lastIndexOf(produktid.substring(1)));
+        console.log(produktid.charAt(3));
+
+        visProdukt(produkt[produktid.charAt(3)]);
       }
 
       function visProdukt(produkt) {
-        console.log("prduktet bliber hentet ID: " + produktid);
+        // console.log("prduktet bliber hentet ID: " + produktid);
+        // console.log(produkt);
         document.querySelector(".navn").textContent = produkt.navn;
         document.querySelector(".pris").textContent = produkt.pris;
         document.querySelector(".langbeskrivelse").textContent =
