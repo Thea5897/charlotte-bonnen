@@ -57,6 +57,10 @@ hr {
   }
 }
 
+.produkt {
+  margin: 14px;
+}
+
 .section_one {
   display: grid;
 }

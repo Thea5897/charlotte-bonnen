@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="da">
   <head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <!-- Favicons for browser with out support .ico file -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/32x32.png"
+      sizes="32x32"
+    />
+
     <script src="login.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -202,8 +217,9 @@
         document.querySelector(".pris").textContent = produkt.pris;
         document.querySelector(".langbeskrivelse").textContent =
           produkt.langbeskrivelse;
+        document.querySelector(".storrelse").textContent = produkt.storrelse;
         document.querySelector(".billede").src =
-          "produkter/" + produkt.billedenavn;
+          "produkter/" + produkt.billedenavn + ".webp";
       }
     </script>
     <script src="burger.js"></script>

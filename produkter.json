@@ -1,6 +1,6 @@
 [
   {
-    "_id": "0001",
+    "_id": "0000",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -9,7 +9,7 @@
     "billedenavn": "sisley"
   },
   {
-    "_id": "0002",
+    "_id": "0001",
     "pris": "595 DKK",
     "type": "Ansigt",
     "langbeskrivelse": "Rosalique 3 in 1 Anti Redness miracle formula",
@@ -18,7 +18,7 @@
     "billedenavn": "rosalique"
   },
   {
-    "_id": "0003",
+    "_id": "0002",
     "type": "Hår",
     "pris": "225 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -27,7 +27,7 @@
     "billedenavn": "sensai"
   },
   {
-    "_id": "0004",
+    "_id": "0003",
     "type": "Makeup",
     "pris": "265 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -36,7 +36,7 @@
     "billedenavn": "clinique01"
   },
   {
-    "_id": "0005",
+    "_id": "0004",
     "type": "Ansigt",
     "pris": "725 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -45,7 +45,7 @@
     "billedenavn": "bioeffect"
   },
   {
-    "_id": "0006",
+    "_id": "0005",
     "type": "Ansigt",
     "pris": "239 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -54,7 +54,7 @@
     "billedenavn": "karmameju"
   },
   {
-    "_id": "0007",
+    "_id": "0006",
     "type": "Makeup",
     "pris": "405 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -63,7 +63,7 @@
     "billedenavn": "sisleybrush"
   },
   {
-    "_id": "0008",
+    "_id": "0007",
     "type": "Parfume",
     "pris": "595 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -72,7 +72,7 @@
     "billedenavn": "marcjacobs"
   },
   {
-    "_id": "0009",
+    "_id": "0008",
     "type": "Ansigt",
     "pris": "1300 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
@@ -81,12 +81,20 @@
     "billedenavn": "laprairie"
   },
   {
-    "_id": "0010",
+    "_id": "0009",
     "type": "Makeup",
     "pris": "150 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
     "navn": "Clarins Instant Comfort Lip Oil",
     "billedenavn": "clarinslipoil"
+  },
+  {
+    "_id": "0010",
+    "type": "Ansigt",
+    "pris": "560 DKK",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Sisley Comfort Extreme nutrive",
+    "billedenavn": "sisley"
   },
   {
     "_id": "0011",
@@ -114,14 +122,6 @@
   },
   {
     "_id": "0014",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
-  {
-    "_id": "0015",
     "type": "Ansigt",
     "pris": "560 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
