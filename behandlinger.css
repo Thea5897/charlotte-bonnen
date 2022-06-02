@@ -37,7 +37,7 @@ h3 {
   font-weight: lighter;
 }
 h2 {
-  padding-bottom: 80px;
+  padding-bottom: 5px;
 }
 hr {
   margin-top: 120px;
@@ -208,6 +208,10 @@ input[type="radio"]:checked + label:after {
 
 #question_section {
   margin-bottom: 2rem;
+}
+
+body > main:nth-child(2) > h3:nth-child(2) {
+  text-align: center;
 }
 
 .hero_img {
