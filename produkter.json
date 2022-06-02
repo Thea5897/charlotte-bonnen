@@ -67,7 +67,7 @@
     "type": "Parfume",
     "pris": "595 DKK",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Clean Flower Fresh, Daisy Love",
+    "navn": "Marc Jacobs, Daisy Love",
     "storrelse": "60 ml",
     "billedenavn": "marcjacobs"
   },
@@ -84,48 +84,101 @@
     "_id": "0009",
     "type": "Makeup",
     "pris": "150 DKK",
+    "storrelse": "6 ml",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
     "navn": "Clarins Instant Comfort Lip Oil",
     "billedenavn": "clarinslipoil"
   },
   {
     "_id": "0010",
-    "type": "Ansigt",
-    "pris": "560 DKK",
+    "type": "Parfume",
+    "pris": "429 DKK",
+    "storrelse": "50 ml",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
+    "navn": "Clean Flower Fresh 50ml",
+    "billedenavn": "clean"
   },
-  {
-    "_id": "0011",
-    "type": "Ansigt",
-    "pris": "560 DKK",
-    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
-  },
+
   {
     "_id": "0012",
-    "type": "Ansigt",
-    "pris": "560 DKK",
+    "type": "Parfume",
+    "pris": "765 DKK",
+    "storrelse": "50 ml",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
+    "navn": "Gucci Bamboo, Eau de parfum",
+    "billedenavn": "guccibamboo"
   },
   {
     "_id": "0013",
-    "type": "Ansigt",
-    "pris": "560 DKK",
+    "type": "Krop",
+    "pris": "199 DKK",
+    "storrelse": "3 ml",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
+    "navn": "Trind Nails Cuticle Balsam",
+    "billedenavn": "trindnails"
   },
   {
     "_id": "0014",
     "type": "Ansigt",
-    "pris": "560 DKK",
+    "pris": "339 DKK",
+    "storrelse": "3 ml",
     "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
-    "navn": "Sisley Comfort Extreme nutrive",
-    "billedenavn": "sisley"
+    "navn": "Clinique Pep-start, eye cream",
+    "billedenavn": "clinique02"
+  },
+  {
+    "_id": "0015",
+    "type": "Krop",
+    "pris": "560 DKK",
+    "storrelse": "3 ml",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Clinique sparkle skin, Exfoliating Eream",
+    "billedenavn": "clinique03"
+  },
+  {
+    "_id": "0016",
+    "type": "Krop",
+    "pris": "160 DKK",
+    "storrelse": "10 ml",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Clinique Antiperspirant-deodarant",
+    "billedenavn": "clinique04"
+  },
+  {
+    "_id": "0017",
+    "type": "Krop",
+    "pris": "215 DKK",
+    "storrelse": "40 dage",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "smuuk, Youth Optimizer vitamins",
+    "billedenavn": "smuukvitamins"
+  },
+
+  {
+    "_id": "0018",
+    "type": "Parfume",
+    "pris": "760 DKK",
+    "storrelse": "50 ml",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Narciso Rodriguez, for her, 50 ml",
+    "billedenavn": "narciso"
+  },
+  {
+    "_id": "0019",
+    "type": "Herre",
+    "pris": "229 DKK",
+    "storrelse": "10 ml",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Clinique For Men, Anti Age Moisturizer",
+    "billedenavn": "clinique05"
+  },
+  {
+    "_id": "0020",
+    "type": "Makeup",
+    "pris": "189 DKK",
+    "storrelse": "10 ml",
+    "langbeskrivelse": "Sisley comfort extreme nutrive er en lækker creme med massere af nærende ingredienser",
+    "navn": "Clinique High Impact Mascara",
+    "billedenavn": "clinique06"
   }
 ]
