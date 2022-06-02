@@ -41,19 +41,81 @@ hr {
   width: 50%;
 }
 
+#produkt_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-inline: 2rem;
+}
+
+.produkt > button:nth-child(5) {
+  max-width: 200px;
+}
+
+body > main:nth-child(2) > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* body > main:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  place-content: center;
+  align-content: center;
+  align-items: center;
+} */
+
+.produkt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.section_one {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+}
+
 .tilbage_knap_box {
   padding-left: 15px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .tilbage_knap_box {
     padding-left: 70px;
   }
+
+  section.section_one {
+    display: flex;
+  }
+
+  .billede {
+    width: 400px;
+    align-content: center;
+    align-self: center;
+  }
+}
+
+@media (min-width: 900px) {
 }
 
 @media (min-width: 1000px) {
   .tilbage_knap_box {
     padding-left: 120px;
+  }
+
+  #produkt_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-inline: 8rem;
+    gap: 36px;
   }
 }
 
@@ -63,6 +125,8 @@ hr {
 
 .section_one {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70vw;
 }
 
 .section_1 {
