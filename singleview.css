@@ -113,7 +113,7 @@ body > main:nth-child(2) > div:nth-child(2) {
   #produkt_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    margin-top: 1rem;
     margin-inline: 8rem;
     gap: 36px;
   }
@@ -187,6 +187,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 select {
@@ -210,7 +211,7 @@ select {
 }
 
 .section_4 {
-  padding-bottom: 130px;
+  padding-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
